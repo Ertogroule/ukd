@@ -146,10 +146,10 @@ def ukdchange(rating1, rating2, result):
     if rating2 < 1000:
         rating2 = 1000
     
-    rating_change1= round(rating_change1, 1)
-    rating1= round(rating1,1)
-    rating2=round(rating2,1)
+    #rating_change1= round(rating_change1, 2)
+    #rating1= round(rating1,2)
+    #rating2=round(rating2,2)
 
     return rating1, rating2
 
-#print(ukdchange(1303,1200,1))
+#print(ukdchange(1500,1500,1))
